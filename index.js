@@ -32,6 +32,13 @@
          userInput.value = '';
          return;
      }
+  
+     if (message == 'who is azeem?' || message == 'Who is azeem?') {
+         appendMessage('user', message);
+         appendMessage('bot', 'Ik number ka gandu ladka imi ka madarchod haramzada');
+         userInput.value = '';
+         return;
+     }
 
      if (message === 'what is your owner Name') {
          appendMessage('user', message);
