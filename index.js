@@ -25,13 +25,6 @@
          }, 2000);
          return;
      }
-
-     if (message == 'what is your owner name' || message == 'owner name') {
-         appendMessage('user', message);
-         appendMessage('bot', 'My Owner Name is Waleed.');
-         userInput.value = '';
-         return;
-     }
   
      if (message == 'who is azeem?' || message == 'Who is azeem?') {
          appendMessage('user', message);
